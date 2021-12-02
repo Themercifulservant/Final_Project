@@ -89,6 +89,9 @@ def run_alexa():
         talk('i am Sakil YOur Personal Assistant')
     elif 'date' in command:
         talk('Sorry via, I am in another relation')
+    elif 'joke' in command:
+        talk(pyjokes.get_joke())
+#goood
 
     else:
         talk('I did not get it but I am going to search it for you')
