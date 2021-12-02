@@ -87,6 +87,8 @@ def run_alexa():
         talk('i am fine and you?')
     elif 'Who are you' in command:
         talk('i am Sakil YOur Personal Assistant')
+    elif 'date' in command:
+        talk('Sorry via, I am in another relation')
 
     else:
         talk('I did not get it but I am going to search it for you')
